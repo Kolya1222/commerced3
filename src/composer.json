@@ -1,0 +1,17 @@
+{
+  "name": "roilafx/commerced3",
+  "description": "Графики на D3.js для Commerce в Evolution CE 3.x",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "roilafx\\Commerced3\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "roilafx\\Commerced3\\Commerced3ServiceProvider"
+      ]
+    }
+  }
+}
